@@ -39,4 +39,12 @@ console.log(middleNums)
 */
 
 // CODE HERE
-// let bigOrSmall = []
+function bigOrSmall(arr){
+  const answers = arr 
+  if (arr > 100){
+    console.log("push")
+  }if (arr <= 100) {
+    console.log("small")
+  }
+}
+bigOrSmall(100)
